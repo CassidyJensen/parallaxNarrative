@@ -1,0 +1,72 @@
+body{
+    font-family: $basefont;
+    background-color: $back-color;
+    color: $basecolor;
+}
+
+header{
+    font-family: $headfont;
+    color: $greencolor;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+section{
+    padding: 5%;
+}
+
+p{
+  font-size: 20px;;
+}
+
+h2{
+  font-size: 2em;
+  color: $greencolor;
+}
+
+.parallax_img {
+	height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+#img1{
+  background-image: url('../img/lagoon.JPG');
+}
+
+#img2{
+  background-image: url('../img/gullfoss.jpg');
+}
+
+#img3{
+  background-image: url('../img/IMG_20190707_191020.jpg');
+}
+
+#img4{
+  background-image: url('../img/glaciers.jpg');
+}
+
+#img5{
+  background-image: url('../img/secret.jpg');
+}
+
+
+#img6{
+  background-image: url('../img/smelly.jpg');
+}
+
+#img7{
+  background-image: url('../img/towns.jpg');
+}
+
+#img8{
+  background-image: url('../img/final.jpg');
+}
+// h3{
+//     @include parallax(.5);
+//     width: 10%;
+//     left: 800px;
+// }
